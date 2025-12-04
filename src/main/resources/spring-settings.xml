@@ -4,8 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean name = "beanStudent" class="by.tms.Student">
-        <constructor-arg name = "name" value = "Dima">
-        <constructor-arg name = "age" value = "15">
-
+        <constructor-arg name = "name" value = "Dima"/>
+        <constructor-arg name = "age" value = "15"/>
     </bean>
 </beans>

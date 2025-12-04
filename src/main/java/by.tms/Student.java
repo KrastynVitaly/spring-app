@@ -7,7 +7,9 @@ public class Student {
     public Student() {
     }
 
-    public Student(String age, String name) {
+    public Student(String name, int age) {
+        this.name = name;
+        this.age = age;
     }
 
     public String getName() {
